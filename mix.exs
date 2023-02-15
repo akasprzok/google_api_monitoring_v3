@@ -22,7 +22,7 @@ defmodule GoogleApi.Monitoring.Mixfile do
 
   def project() do
     [
-      app: :google_api_monitoring_v3,
+      app: :google_api_monitoring,
       version: @version,
       elixir: "~> 1.6",
       build_embedded: Mix.env == :prod,
